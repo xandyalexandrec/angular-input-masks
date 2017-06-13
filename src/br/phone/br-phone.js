@@ -51,7 +51,7 @@ module.exports = maskFactory({
 			// 9- 9D without DD
 			// 10- 9D with DD
 			// 11- 8D with DD and 0800
-			return valueLength >= 8 && valueLength <= 11;
+			return valueLength >= 10 && valueLength <= 11;
 		}
 	}
 });
